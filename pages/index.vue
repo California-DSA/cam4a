@@ -104,44 +104,39 @@
             here!
           </h5>
 
-          <table>
-            <tr>
-              <td>
-                <a
-                  href="https://actionnetwork.org/forms/join-our-statewide-campaign-to-win-single-payer-in-california/"
-                  target="_blank"
-                >
-                  <img
-                    style="
-                      width: 80%;
-                      object-fit: contain;
-                      display: block;
-                      margin-left: auto;
-                      margin-right: auto;
-                    "
-                    src="/graphics/b-vol.png"
-                  />
-                </a>
-              </td>
-              <td>
-                <a
-                  href="https://secure.actblue.com/donate/cam4a"
-                  target="_blank"
-                >
-                  <img
-                    style="
-                      width: 80%;
-                      object-fit: contain;
-                      display: block;
-                      margin-left: auto;
-                      margin-right: auto;
-                    "
-                    src="/graphics/b-donate.png"
-                  />
-                </a>
-              </td>
-            </tr>
-          </table>
+          <div class="w3-cell-row">
+            <div class="w3-cell">
+              <a
+                href="https://actionnetwork.org/forms/join-our-statewide-campaign-to-win-single-payer-in-california/"
+                target="_blank"
+              >
+                <img
+                  style="
+                    width: 80%;
+                    object-fit: contain;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                  "
+                  src="/graphics/b-vol.png"
+                />
+              </a>
+            </div>
+            <div class="w3-cell">
+              <a href="https://secure.actblue.com/donate/cam4a" target="_blank">
+                <img
+                  style="
+                    width: 80%;
+                    object-fit: contain;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                  "
+                  src="/graphics/b-donate.png"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
