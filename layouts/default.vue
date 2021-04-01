@@ -17,12 +17,6 @@ h6 {
   font-family: 'Libre Franklin Bold Medium', sans-serif;
 }
 
-.w3-bar,
-h1,
-button {
-  font-family: 'Libre Franklin Extrabold', sans-serif;
-}
-
 .fa-anchor,
 .fa-coffee {
   font-size: 200px;

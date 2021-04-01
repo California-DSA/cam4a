@@ -60,3 +60,11 @@ export default {
   },
 }
 </script>
+
+<style>
+.w3-bar,
+h1,
+button {
+  font-family: 'Libre Franklin Extrabold', sans-serif;
+}
+</style>
