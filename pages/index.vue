@@ -105,35 +105,17 @@
           </h5>
 
           <div class="w3-cell-row">
-            <div class="w3-cell">
+            <div class="w3-cell get-involved-button">
               <a
                 href="https://actionnetwork.org/forms/join-our-statewide-campaign-to-win-single-payer-in-california/"
                 target="_blank"
               >
-                <img
-                  style="
-                    width: 80%;
-                    object-fit: contain;
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                  "
-                  src="/graphics/b-vol.png"
-                />
+                <img src="/graphics/b-vol.png" />
               </a>
             </div>
-            <div class="w3-cell">
+            <div class="w3-cell get-involved-button">
               <a href="https://secure.actblue.com/donate/cam4a" target="_blank">
-                <img
-                  style="
-                    width: 80%;
-                    object-fit: contain;
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                  "
-                  src="/graphics/b-donate.png"
-                />
+                <img src="/graphics/b-donate.png" />
               </a>
             </div>
           </div>
@@ -149,3 +131,13 @@
     </div>
   </div>
 </template>
+
+<style>
+.get-involved-button img {
+  width: 80%;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
