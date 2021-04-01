@@ -1,17 +1,73 @@
+const meta = {
+  title: 'California Medicare for All',
+  description: "It's time for M4A in California",
+  image: 'https://cam4a.org/graphs/header-cam4asite.png',
+  image_alt: '',
+}
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'cam4a',
+    title: meta.title,
     htmlAttrs: {
       lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: meta.description,
+      },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: meta.title,
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content: meta.description,
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: meta.image,
+      },
+      {
+        hid: 'og:image:alt',
+        name: 'og:image:alt',
+        content: meta.image_alt,
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: meta.title,
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: meta.description,
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: meta.image,
+      },
+      {
+        hid: 'twitter:image:alt',
+        name: 'twitter:image:alt',
+        content: meta.image_alt,
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_image_large',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
