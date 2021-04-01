@@ -28,15 +28,15 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 /* Libre Franklin Font */
 @font-face {
 	font-family: "Libre Franklin Extrabold";
-	src: url("./libreFranklin/static/LibreFranklin-ExtraBold.ttf") format("truetype");
+	src: url("../fonts/libreFranklin/static/LibreFranklin-ExtraBold.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Libre Franklin Bold Italic";
-	src: url("./libreFranklin/static/LibreFranklin-BoldItalic.ttf") format("truetype");
+	src: url("../fonts/libreFranklin/static/LibreFranklin-BoldItalic.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Libre Franklin Medium";
-	src: url("./libreFranklin/static/LibreFranklin-Medium.ttf") format("truetype");
+	src: url("../fonts/libreFranklin/static/LibreFranklin-Medium.ttf") format("truetype");
 }
 /*end font*/
 
