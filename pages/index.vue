@@ -21,6 +21,7 @@
             <img
               style="width: 100%; object-fit: contain"
               src="/graphics/singlepayer-cam4asite.png"
+              alt=""
             />
           </i>
         </div>
@@ -35,6 +36,7 @@
             <img
               style="width: 100%; object-fit: contain"
               src="/graphics/dsa-cam4asite.png"
+              alt=""
             />
           </i>
         </div>
@@ -76,6 +78,7 @@
             <img
               style="width: 100%; object-fit: contain"
               src="/graphics/dsaLogo.png"
+              alt=""
             />
           </i>
         </div>
@@ -93,6 +96,7 @@
             <img
               style="width: 100%; object-fit: contain"
               src="/graphics/clipboard.png"
+              alt=""
             />
           </i>
         </div>
@@ -127,6 +131,7 @@
       <img
         style="width: 100%; object-fit: contain"
         src="/graphics/footer-cam4asite.png"
+        alt="California Medicare for All"
       />
     </div>
   </div>
