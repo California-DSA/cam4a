@@ -110,12 +110,12 @@
                 href="https://actionnetwork.org/forms/join-our-statewide-campaign-to-win-single-payer-in-california/"
                 target="_blank"
               >
-                <img src="/graphics/b-vol.png" />
+                <img src="/graphics/b-vol.png" alt="Volunteer" />
               </a>
             </div>
             <div class="w3-cell get-involved-button">
               <a href="https://secure.actblue.com/donate/cam4a" target="_blank">
-                <img src="/graphics/b-donate.png" />
+                <img src="/graphics/b-donate.png" alt="Donate" />
               </a>
             </div>
           </div>
