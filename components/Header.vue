@@ -3,6 +3,7 @@
     <img
       style="width: 100%; object-fit: contain; padding-top: 32px"
       src="/graphics/header-cam4asite.png"
+      alt="California Medicare for All"
     />
   </header>
 </template>

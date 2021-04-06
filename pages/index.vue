@@ -21,6 +21,7 @@
             <img
               style="width: 100%; object-fit: contain"
               src="/graphics/singlepayer-cam4asite.png"
+              alt=""
             />
           </i>
         </div>
@@ -35,6 +36,7 @@
             <img
               style="width: 100%; object-fit: contain"
               src="/graphics/dsa-cam4asite.png"
+              alt=""
             />
           </i>
         </div>
@@ -76,6 +78,7 @@
             <img
               style="width: 100%; object-fit: contain"
               src="/graphics/dsaLogo.png"
+              alt=""
             />
           </i>
         </div>
@@ -93,6 +96,7 @@
             <img
               style="width: 100%; object-fit: contain"
               src="/graphics/clipboard.png"
+              alt=""
             />
           </i>
         </div>
@@ -110,12 +114,12 @@
                 href="https://actionnetwork.org/forms/join-our-statewide-campaign-to-win-single-payer-in-california/"
                 target="_blank"
               >
-                <img src="/graphics/b-vol.png" />
+                <img src="/graphics/b-vol.png" alt="Volunteer" />
               </a>
             </div>
             <div class="w3-cell get-involved-button">
               <a href="https://secure.actblue.com/donate/cam4a" target="_blank">
-                <img src="/graphics/b-donate.png" />
+                <img src="/graphics/b-donate.png" alt="Donate" />
               </a>
             </div>
           </div>
@@ -127,6 +131,7 @@
       <img
         style="width: 100%; object-fit: contain"
         src="/graphics/footer-cam4asite.png"
+        alt="California Medicare for All"
       />
     </div>
   </div>
