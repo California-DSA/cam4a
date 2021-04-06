@@ -82,46 +82,8 @@
       </div>
     </div>
 
+    <GetInvolved />
     <!-- Get Involved -->
-    <div
-      id="volunteer"
-      class="w3-row-padding w3-light-grey w3-padding-32 w3-container"
-    >
-      <div class="w3-content">
-        <div id="icons" class="w3-third w3-center">
-          <i class="fa w3-text-red w3-margin-right">
-            <img
-              style="width: 100%; object-fit: contain"
-              src="/graphics/clipboard.png"
-            />
-          </i>
-        </div>
-
-        <div class="w3-twothird">
-          <h1>Get Involved</h1>
-          <h5 class="w3-padding-32" style="padding-left: 0px !important">
-            Ready to join the fight for CalCare? Get plugged into our campaign
-            here!
-          </h5>
-
-          <div class="w3-cell-row">
-            <div class="w3-cell get-involved-button">
-              <a
-                href="https://actionnetwork.org/forms/join-our-statewide-campaign-to-win-single-payer-in-california/"
-                target="_blank"
-              >
-                <img src="/graphics/b-vol.png" />
-              </a>
-            </div>
-            <div class="w3-cell get-involved-button">
-              <a href="https://secure.actblue.com/donate/cam4a" target="_blank">
-                <img src="/graphics/b-donate.png" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <div class="w3-container w3-center">
       <img
@@ -131,13 +93,3 @@
     </div>
   </div>
 </template>
-
-<style>
-.get-involved-button img {
-  width: 80%;
-  object-fit: contain;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
