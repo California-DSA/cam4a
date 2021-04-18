@@ -11,12 +11,6 @@
         {{ $t('home') }}
       </a>
       <a
-        href="#faq"
-        class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
-      >
-        {{ $t('faq') }}
-      </a>
-      <a
         href="#volunteer"
         class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
       >
@@ -49,7 +43,6 @@
       id="navDemo"
       class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large"
     >
-      <a href="#faq" class="w3-bar-item w3-button w3-padding-large">FAQ</a>
       <a href="#volunteer" class="w3-bar-item w3-button w3-padding-large">
         {{ $t('volunteer') }}
       </a>
