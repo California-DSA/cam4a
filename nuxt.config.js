@@ -100,14 +100,15 @@ export default {
 
   i18n: {
     locales: [
-      { code: 'en', iso: 'en-US', dir: 'ltr' },
-      { code: 'es', iso: 'es-ES', dir: 'ltr' },
+      { code: 'en', iso: 'en-US', file: 'en.js', dir: 'ltr' },
+      { code: 'es', iso: 'es-ES', file: 'es.js', dir: 'ltr' },
     ],
     defaultLocale: 'en',
     langDir: '~/locales/',
     vueI18n: {
       fallbackLocale: 'en',
     },
+    lazy: true,
     vueI18nLoader: true,
   },
 }

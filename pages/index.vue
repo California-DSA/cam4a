@@ -161,6 +161,8 @@ en:
       not a party; through campus and community-based chapters, DSA members
       use a variety of tactics, from legislative to direct action, to fight
       for reforms that empower working people.
+  get-involved: Get Involved
+  ready-to-join: Ready to join the fight for CalCare? Get plugged into our campaign here!
 es:
   section-intro:
     header: Es hora para un sistema de Medicare para Todos en California.
@@ -198,4 +200,6 @@ es:
       miembros de la DSA utilizan una variedad de tácticas, desde la acción
       legislativa hasta la acción directa, para luchar por reformas que den
       poder a los trabajadores.
+  get-involved: Involucrarse
+  ready-to-join: ¿Listo para unirse a la lucha por CalCare? ¡Conéctese a nuestra campaña aquí!
 </i18n>
