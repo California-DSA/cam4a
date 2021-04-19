@@ -101,18 +101,13 @@
             </div>
             <div class="w3-half">
               <a
-                href="https://actionnetwork.org/forms/join-our-statewide-campaign-to-win-single-payer-in-california/"
+                href="https://secure.actblue.com/donate/cam4a"
                 target="_blank"
-                class="get-involved-button volunteer"
+                class="get-involved-button donate"
               >
                 {{ $t('donate') }}
               </a>
             </div>
-            <!-- <a href="https://secure.actblue.com/donate/cam4a" target="_blank">
-              <button class="w3-cell get-involved-button donate">
-                Donate
-              </button>
-            </a> -->
           </div>
         </div>
       </div>
@@ -135,7 +130,6 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
-  background-image: url('/graphics/textured-button1.png');
   background-size: contain;
 
   color: #fff;
@@ -148,6 +142,12 @@
 :lang('es-ES') .get-involved-button {
   font-size: 21px;
   line-height: 3.4em;
+}
+.volunteer {
+  background-image: url('/graphics/textured-button1.png');
+}
+.donate {
+  background-image: url('/graphics/textured-button2.png');
 }
 .get-involved-button::before {
   content: '';
