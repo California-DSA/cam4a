@@ -83,10 +83,9 @@
         </div>
 
         <div class="w3-twothird">
-          <h1>Get Involved</h1>
+          <h1>{{ $t('get-involved') }}</h1>
           <h5 class="w3-padding-32" style="padding-left: 0px !important">
-            Ready to join the fight for CalCare? Get plugged into our campaign
-            here!
+            {{ $t('ready-to-join') }}
           </h5>
 
           <div class="w3-col">
