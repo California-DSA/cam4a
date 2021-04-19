@@ -96,7 +96,7 @@
                 target="_blank"
                 class="get-involved-button volunteer"
               >
-                Volunteer
+                {{ $t('volunteer') }}
               </a>
             </div>
             <div class="w3-half">
@@ -105,7 +105,7 @@
                 target="_blank"
                 class="get-involved-button volunteer"
               >
-                Donate
+                {{ $t('donate') }}
               </a>
             </div>
             <!-- <a href="https://secure.actblue.com/donate/cam4a" target="_blank">
@@ -144,6 +144,10 @@
   line-height: 2.1em;
   font-family: 'Libre Franklin Black', sans-serif;
   text-align: center;
+}
+:lang('es-ES') .get-involved-button {
+  font-size: 21px;
+  line-height: 3.4em;
 }
 .get-involved-button::before {
   content: '';
