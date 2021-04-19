@@ -12,9 +12,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: meta.title,
-    htmlAttrs: {
-      lang: 'en',
-    },
+    htmlAttrs: {},
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -95,8 +93,21 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['nuxt-i18n'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  i18n: {
+    locales: [
+      { code: 'en', iso: 'en-US', dir: 'ltr' },
+      { code: 'es', iso: 'es-ES', dir: 'ltr' },
+    ],
+    defaultLocale: 'en',
+    langDir: '~/locales/',
+    vueI18n: {
+      fallbackLocale: 'en',
+    },
+    vueI18nLoader: true,
+  },
 }

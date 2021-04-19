@@ -26,6 +26,20 @@
         class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
         >Donate</a
       >
+      <nuxt-link
+        v-if="$i18n.locale != 'es'"
+        :to="switchLocalePath('es')"
+        class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-right"
+      >
+        Español
+      </nuxt-link>
+      <nuxt-link
+        v-if="$i18n.locale != 'en'"
+        :to="switchLocalePath('en')"
+        class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-right"
+      >
+        English
+      </nuxt-link>
     </div>
 
     <div
@@ -41,6 +55,20 @@
         class="w3-bar-item w3-button w3-padding-large"
         >Donate</a
       >
+      <nuxt-link
+        v-if="$i18n.locale != 'es'"
+        :to="switchLocalePath('es')"
+        class="w3-bar-item w3-button w3-padding-large"
+      >
+        Español
+      </nuxt-link>
+      <nuxt-link
+        v-if="$i18n.locale != 'en'"
+        :to="switchLocalePath('en')"
+        class="w3-bar-item w3-button w3-padding-large"
+      >
+        English
+      </nuxt-link>
     </div>
   </div>
 </template>
