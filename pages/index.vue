@@ -89,20 +89,30 @@
             here!
           </h5>
 
-          <div class="w3-cell-row">
-            <div class="w3-cell get-involved-button">
+          <div class="w3-col">
+            <div class="w3-half">
               <a
                 href="https://actionnetwork.org/forms/join-our-statewide-campaign-to-win-single-payer-in-california/"
                 target="_blank"
+                class="get-involved-button volunteer"
               >
-                <img src="/graphics/b-vol.png" alt="Volunteer" />
+                Volunteer
               </a>
             </div>
-            <div class="w3-cell get-involved-button">
-              <a href="https://secure.actblue.com/donate/cam4a" target="_blank">
-                <img src="/graphics/b-donate.png" alt="Donate" />
+            <div class="w3-half">
+              <a
+                href="https://actionnetwork.org/forms/join-our-statewide-campaign-to-win-single-payer-in-california/"
+                target="_blank"
+                class="get-involved-button volunteer"
+              >
+                Donate
               </a>
             </div>
+            <!-- <a href="https://secure.actblue.com/donate/cam4a" target="_blank">
+              <button class="w3-cell get-involved-button donate">
+                Donate
+              </button>
+            </a> -->
           </div>
         </div>
       </div>
@@ -119,12 +129,45 @@
 </template>
 
 <style>
-.get-involved-button img {
-  width: 80%;
-  object-fit: contain;
+.get-involved-button {
+  width: 230px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
+  background-image: url('/graphics/textured-button1.png');
+  background-size: contain;
+
+  color: #fff;
+  text-decoration: none;
+  font-size: 34px;
+  line-height: 2.1em;
+  font-family: 'Libre Franklin Black', sans-serif;
+  text-align: center;
+}
+.get-involved-button::before {
+  content: '';
+  width: 1px;
+  margin-left: -1px;
+  float: left;
+  height: 0;
+  padding-top: 31.5%;
+}
+.get-involved-button::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#icons {
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  #icons {
+    display: none;
+  }
+  .w3-twothird {
+    width: 100%;
+  }
 }
 </style>
 
