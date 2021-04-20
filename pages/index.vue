@@ -83,24 +83,28 @@
         </div>
 
         <div class="w3-twothird">
-          <h1>Get Involved</h1>
+          <h1>{{ $t('get-involved') }}</h1>
           <h5 class="w3-padding-32" style="padding-left: 0px !important">
-            Ready to join the fight for CalCare? Get plugged into our campaign
-            here!
+            {{ $t('ready-to-join') }}
           </h5>
 
-          <div class="w3-cell-row">
-            <div class="w3-cell get-involved-button">
+          <div class="w3-col">
+            <div class="w3-half">
               <a
                 href="https://actionnetwork.org/forms/join-our-statewide-campaign-to-win-single-payer-in-california/"
                 target="_blank"
+                class="get-involved-button volunteer"
               >
-                <img src="/graphics/b-vol.png" alt="Volunteer" />
+                {{ $t('volunteer') }}
               </a>
             </div>
-            <div class="w3-cell get-involved-button">
-              <a href="https://secure.actblue.com/donate/cam4a" target="_blank">
-                <img src="/graphics/b-donate.png" alt="Donate" />
+            <div class="w3-half">
+              <a
+                href="https://secure.actblue.com/donate/cam4a"
+                target="_blank"
+                class="get-involved-button donate"
+              >
+                {{ $t('donate') }}
               </a>
             </div>
           </div>
@@ -119,12 +123,54 @@
 </template>
 
 <style>
-.get-involved-button img {
-  width: 80%;
-  object-fit: contain;
+.get-involved-button {
+  width: 230px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
+  background-size: contain;
+
+  color: #fff;
+  text-decoration: none;
+  font-size: 34px;
+  line-height: 2.1em;
+  font-family: 'Libre Franklin Black', sans-serif;
+  text-align: center;
+}
+:lang('es-ES') .get-involved-button {
+  font-size: 21px;
+  line-height: 3.4em;
+}
+.volunteer {
+  background-image: url('/graphics/textured-button1.png');
+}
+.donate {
+  background-image: url('/graphics/textured-button2.png');
+}
+.get-involved-button::before {
+  content: '';
+  width: 1px;
+  margin-left: -1px;
+  float: left;
+  height: 0;
+  padding-top: 31.5%;
+}
+.get-involved-button::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#icons {
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  #icons {
+    display: none;
+  }
+  .w3-twothird {
+    width: 100%;
+  }
 }
 </style>
 
@@ -161,6 +207,8 @@ en:
       not a party; through campus and community-based chapters, DSA members
       use a variety of tactics, from legislative to direct action, to fight
       for reforms that empower working people.
+  get-involved: Get Involved
+  ready-to-join: Ready to join the fight for CalCare? Get plugged into our campaign here!
 es:
   section-intro:
     header: Es hora para un sistema de Medicare para Todos en California.
@@ -198,4 +246,6 @@ es:
       miembros de la DSA utilizan una variedad de tácticas, desde la acción
       legislativa hasta la acción directa, para luchar por reformas que den
       poder a los trabajadores.
+  get-involved: Involucrarse
+  ready-to-join: ¿Listo para unirse a la lucha por CalCare? ¡Conéctese a nuestra campaña aquí!
 </i18n>

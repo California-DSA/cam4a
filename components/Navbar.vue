@@ -7,25 +7,22 @@
         @click="toggleMenu"
         ><i class="fa fa-bars"></i
       ></a>
-      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white"
-        >Home</a
-      >
-      <a
-        href="#faq"
-        class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
-        >FAQ</a
-      >
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">
+        {{ $t('home') }}
+      </a>
       <a
         href="#volunteer"
         class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
-        >Volunteer</a
       >
+        {{ $t('volunteer') }}
+      </a>
       <a
         href="https://secure.actblue.com/donate/cam4a"
         target="_blank"
         class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
-        >Donate</a
       >
+        {{ $t('donate') }}
+      </a>
       <nuxt-link
         v-if="$i18n.locale != 'es'"
         :to="switchLocalePath('es')"
@@ -46,15 +43,15 @@
       id="navDemo"
       class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large"
     >
-      <a href="#faq" class="w3-bar-item w3-button w3-padding-large">FAQ</a>
-      <a href="#volunteer" class="w3-bar-item w3-button w3-padding-large"
-        >Volunteer</a
-      >
+      <a href="#volunteer" class="w3-bar-item w3-button w3-padding-large">
+        {{ $t('volunteer') }}
+      </a>
       <a
         href="https://secure.actblue.com/donate/cam4a"
         class="w3-bar-item w3-button w3-padding-large"
-        >Donate</a
       >
+        {{ $t('donate') }}
+      </a>
       <nuxt-link
         v-if="$i18n.locale != 'es'"
         :to="switchLocalePath('es')"
